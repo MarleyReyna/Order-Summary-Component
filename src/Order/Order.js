@@ -16,7 +16,7 @@ const Order = () => {
                 </p>
                 <div className='plan-container'>
                     <div>
-                        <img src={note} alt='' />
+                        <img src={note} alt='' aria-hidden='true' />
                         <h2>Annual Plan <span>$59.99/year</span></h2>
                     </div>
                     <a href='https://github.com/MarleyReyna'>Change</a>
