@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e8ff;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./pattern-background-desktop.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+@media only screen and (max-width: 500px) {
+  .App {
+    background-image: url("./pattern-background-mobile.svg");
+  }
+}
